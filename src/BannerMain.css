@@ -58,12 +58,19 @@
     @keyframes updown {
         0% {
             transform: translateY(-20px);
+            text-align: center;
+            justify-content: center;
         }
         50% {
             transform: translateY(20px);
+            text-align: center;
+            justify-content: center;
         }
         100% {
             transform: translateY(-20px);
+            text-align: center;
+            justify-content: center;
+            
         }
     }
     .txt-rotate > .wrap {
@@ -90,6 +97,16 @@
       border: 1px solid rgba( 255, 255, 255, 0.18 );
       padding-bottom: 40px;
     }
+    .about-me-title{
+      font-weight: bold;
+    }
+
+    .about-me-para {
+      font-size: 18px;
+      text-align: center;
+      justify-content: center;
+      line-height: 25px;
+    }
   
     /* Projects.css */
     .project{
@@ -113,56 +130,252 @@
       padding-bottom: 40px;
   }
   
+  .project-title{
+    font-weight: bold;
+  }
+
   .Row1-Projects {
       padding-top: 20px;
       padding-bottom: 15px;
   }
   
-  .Drinking-Buddies-Title {
-      color: rgb(107, 2, 2);
-      font-size: 19px;
+  .db-link-title{
+    color: rgb(107, 2, 2);
+    font-size: 28px;
+    text-decoration: none;
   }
-  
-  .Cherry-Blossom-Title {
-      color: rgb(158, 36, 142);
-      font-size: 19px;
+
+  .db-link-title:hover{
+    font-weight: bold;
+    color:rgb(207, 15, 15) ;
   }
-  
-  .Polaroid-Title {
-      color: rgb(116, 46, 173);
-      font-size: 19px;
+
+  .card1 {
+    border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-image: url("./images/DB.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
   }
-  
-  .DB {
-      margin-top: 5px;
-      border-radius: 20px;
-      border: 1px solid rgb(240, 192, 198);
-      width: 95%;
-      height: auto;
-      
+  .db-link {
+    text-decoration: none;
   }
-  
-  .cherryNY {
-      margin-top: 5px;
-      border-radius: 20px;
-      padding-bottom: 35px;
-      border: 1px solid rgb(248, 202, 244);
-      background-color: white;
-      width: 95%;
-      height: auto;
-  
+
+  .card2 {
+    border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-image: url("./images/cherryNYC.png");
+    background-color: white;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
   }
+
+.cherry-link {
+  text-decoration: none;
+}
+.project-description-paragraph {
+  text-decoration: none;
+  color: black;
+}
+
+.db-para{
+  text-align: center;
+  color: rgb(107, 0, 0);
+  justify-content: center;
+}
+
+.cherry-para{
+  text-align: center;
+  color: rgb(155, 2, 91);
+  justify-content: center;
+}
+
+.polaroid-para {
+  text-align: center;
+  color: rgb(129, 0, 168);
+  justify-content: center;
+}
+
+.info1 {
+  position: relative;
+  width: 100%;
+  height: 315px;
+  background-color: #fff;
+  border: 1px solid rgb(150, 2, 49);
+  transform: translateY(100%)
+    translateY(-30px)
+    translateZ(0);
+  transition: transform 0.65s ease-out;
   
-  .Polaroid {
-      margin-top: 5px;
-      border-radius: 20px;
-      padding-bottom: 25px;
-      border: 1px solid rgb(218, 191, 236);
-      background-color: white;
-      width: 95%;
-      height: auto;
+}
+
+.info1:before {
+  z-index: -1;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("./images/DB.png");
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.65s ease-out;
   
-  }
+  
+}
+
+.cherry-title-link {
+  text-decoration: none;
+  color: rgb(158, 36, 142);
+  font-size: 28px;
+  cursor: pointer;
+  
+}
+
+.cherry-title-link:hover {
+ font-weight: bold;
+ color: rgb(180, 38, 109);
+ cursor: pointer;
+}
+
+.info2 {
+  position: relative;
+  width: 100%;
+  height: 315px;
+  background-color: #fff;
+  
+  border: 1px solid rgb(218, 175, 214);
+  transform: translateY(100%)
+  translateY(-30px)
+    translateZ(0);
+  transition: transform 0.65s ease-out;
+  
+}
+
+.info2:before {
+  z-index: -1;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("./images/cherryNYC.png");
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.65s ease-out;
+  
+}
+
+.polaroid-link{
+  text-decoration: none;
+}
+
+.card3 {
+  border-radius: 30px;
+  margin: 0 auto;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  background-image: url("./images/polaroid.png");
+  background-color: white;
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.info3 {
+  position: relative;
+  width: 100%;
+  height: 315px;
+  background-color: #fff;
+  
+  border: 1px solid rgb(198, 164, 230);
+  transform: translateY(100%)
+  translateY(-30px)
+    translateZ(0);
+  transition: transform 0.65s ease-out;
+  
+}
+
+.info3:before {
+  z-index: -1;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("./images/polaroid.png");
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(-30px)
+    translateZ(0);
+  transition: transform 0.65s ease-out;
+  
+}
+
+.polaroid-title-link{
+  text-decoration: none;
+  color: rgb(104, 38, 158);
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.polaroid-title-link:hover{
+  color: rgb(120, 20, 202);
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+
+.card1:hover .info1,
+.card1:hover .info1:before {
+  transform: translateY(0) translateZ(0);
+  border-radius: 30px;
+  border: 2px solid rgb(139, 0, 46);
+
+}
+
+.card2:hover .info2,
+.card2:hover .info2:before {
+  transform: translateY(0) translateZ(0);
+  border-radius: 30px;
+  border: 2px solid rgb(134, 0, 123);
+  
+}
+
+.card3:hover .info3,
+.card3:hover .info3:before {
+  transform: translateY(0) translateZ(0);
+  border-radius: 30px;
+  border: 2px solid rgb(85, 0, 155);
+  
+}
   
   /* Publication.css */
   
@@ -184,12 +397,94 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding-bottom: 40px;
   }
-  
-  .armchair-image {
+
+  .armchair-title-heading{
+    text-decoration: none;
+    color: rgb(129, 0, 39);
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .armchair-title-heading:hover{
+    font-weight: bold;
+    color: rgb(173, 2, 2);
+  }
+
+  .publication-title-class{
+    font-weight: bold;
+  }
+
+  .publication-link {
+    text-decoration: none;
+  }
+  .card4 {
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-image: url("./images/Armchair.png");
+    background-size:cover;
+    background-position: center;
     width: 35%;
     height: auto;
-    border-radius: 20px;
+    background-repeat: no-repeat;
+
   }
+  
+  .info4 {
+    position: relative;
+    width: 100%;
+    height: 315px;
+    background-color: #fff;
+    
+    border: 1px solid rgb(139, 58, 69);
+    transform: translateY(100%)
+    translateY(-30px)
+      translateZ(0);
+    transition: transform 0.65s ease-out;
+    
+  }
+  
+  .info4:before {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("./images/polaroid.png");
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(-30px)
+      translateZ(0);
+    transition: transform 0.65s ease-out;
+    
+  }
+  
+  .card4:hover .info4,
+  .card4:hover .info4:before {
+    transform: translateY(0) translateZ(0);
+    border-radius: 20px;
+    border: 2px solid rgb(107, 0, 5);
+
+   }
+   .publication-para{
+
+    font-size: 18px;
+      text-align: center;
+      justify-content: center;
+      line-height: 25px;
+      color: rgb(109, 3, 3);
+
+  }
+    
+  
+  
+
   
   /* Footer */
   .footer{

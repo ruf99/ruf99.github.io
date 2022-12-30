@@ -14,11 +14,7 @@ export const BannerMain = () => {
     const face_me = require('./images/face.jpg');
     const [delta, setDelta] = useState(250);
     const [activeLink, setActiveLink] = useState('home');
-    const [scrolled, setScrolled] = useState(false);
-    const cherryNYC = require("./images/cherryNYC.png");
-    const polaroid = require("./images/polaroid.png");
-    const DB = require("./images/DB.png");
-    const armchair = require("./images/Armchair.png");
+    const [scrolled, setScrolled] = useState(false); 
 
     useEffect(() => {
         let tick = setInterval(() => {
@@ -95,12 +91,17 @@ export const BannerMain = () => {
         <section className="About" >
         <Container className="About-Me-Container" id="About" >
           <Row className="About-Title">
-          <h1>About Me</h1>
+          <h1 className="about-me-title">About Me</h1>
           </Row>
           <br>
           </br>
           <Row className="About-Me-Description">
-          <p> name, college, why you're studying this stuff, what you wanna do, maybe a few hobbies.
+          <p className="about-me-para"> Hello! My name is Rufaida Khan. I started my academic journey with Political Science at the University of Delhi (India), <br></br>but wanted to have a more technical background as well, which resulted in my transferring to New York University (NYU)! <br></br>
+          Presently, I am a senior at NYU studying Computer Science and Politics. I've spent the last three years working across different areas of tech <br></br>ranging from front-end development, back-end development,  social media management,  <br></br>to my current role in developing a better understanding of open-source software and data management. <br></br>
+        <br></br>
+        Currently focused on researching, learning and coding as much as I can, while also spending the holidays on perfecting my NY-cheesecake recipe, <br></br>
+        reading Pride & Prejudice for the 7th time, and pet sitting my neighbour's cat. <br></br>
+      
         </p>
           </Row>
            </Container>
@@ -110,29 +111,79 @@ export const BannerMain = () => {
         <section className="project" id="project">
         <Container className="Project-Container">
         <Row className="Row1-Projects">
-          <h1>Projects</h1>
+          <h1 className="project-title">Projects</h1>
         </Row>
         <br></br>
-        <Row>
-          
-          <p>this is the projects description</p>
-        </Row>
+        
         <br></br>
           <Row>
             <Col>
-            <p className="Drinking-Buddies-Title"> Drinking Buddies <br></br>
-              <a className = "db-link" href="https://tangym27.github.io/DrinkingBuddies-Proj/"><img className="DB" alt="DB" src={DB} ></img></a>
-              </p>
+            <a className = "db-link-title" href="https://tangym27.github.io/DrinkingBuddies-Proj/">Drinking Buddies </a>
+            <br></br>
+            <br></br>
+            <br></br>
+              <a className = "db-link" href="https://tangym27.github.io/DrinkingBuddies-Proj/">
+              <div class='card1'>
+            <div class='info1'>
+              <h4 className="project-description-paragraph">Description</h4>
+              <div className="db-para">
+                <p>Drinking Buddies is a website aimed at users who are <br></br>starting out on their alcohol journey. It is meant to serve <br></br>as a 101 Guide for the user, whilst ensuring safe <br></br>practices are followed.
+                <br></br>The website provides the user with a quiz, <br></br>a variety of drinks categorized by alcohol-type, <br></br>as well as a Blood Alcohol Content calculator <br></br>to help keep track of how much alcohol was consumed. <br></br>
+                There are a number of helpful resources as well, such as <br></br>cab services and FAQs to provide <br></br>appropriate instructions for the user if/when needed.
+                </p>
+              </div>
+            </div>
+          </div>
+          </a>
+          <br></br>
+          <br></br>
             </Col>
+
             <Col>
-            <p className="Cherry-Blossom-Title"> Cherry Blossoms <br></br>
-            <a className = "cherry-link" href="https://ruf99.github.io/javascript/index.html"><img className="cherryNY" alt="cherry" src={cherryNYC} ></img> </a>
-            </p>
+            <a className = "cherry-title-link" href="https://rufaida99-k.github.io/javascript/index.html">Cherry Blossoms </a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <a className = "cherry-link" href="https://rufaida99-k.github.io/javascript/index.html">
+          <div class='card2'>
+            <div class='info2'>
+              <h4 className="project-description-paragraph">Description</h4>
+              <div className="cherry-para">
+                <p><br></br>Cherry Blossoms is a website that perfectly captures the <br></br>immense love I have for New York during Spring. <br></br> 
+                I included research I had done on the history of how <br></br> cherry blossoms made their way to New York, <br></br> all the way from Japan back in the early 1900's. 
+                <br></br>
+                <br></br>I made this website as an ode to anyone who <br></br>  felt the same way I did about the changing weather, <br></br> and the perfectly blossomed flowers, <br></br> that are a delight to witness. <br></br>
+                <br></br>
+                
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <br></br>
+        <br></br>
             </Col>
+
             <Col>
-            <p className="Polaroid-Title"> Polaroid Diaries <br></br>
-            <a className = "polaroid-link" href="https://ruf99.github.io/final_project/index.html"><img className="Polaroid" alt="polaroid" src={polaroid} ></img></a>
-            </p>
+            <a className="polaroid-title-link" href="https://rufaida99-k.github.io/final_project/index.html">Polaroid Diaries </a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <a className = "polaroid-link" href="https://rufaida99-k.github.io/final_project/index.html">
+            <div class='card3'>
+            <div class='info3'>
+              <h4 className="project-description-paragraph">Description</h4>
+              <div className="polaroid-para">
+                <p><br></br>Polaroid Diaries is a pictorial diary of some of the best <br></br> moments I have experienced over the past five years. <br></br>
+                From gazing at the twinkling lights, <br></br> to freezing while watching the lunar eclipse,  <br></br>and reading poetry, this website has a picture <br></br>representing  each moment in my life  <br></br>that felt surreal.
+                
+                </p>
+              </div>
+            </div>
+          </div>
+            </a>
+            <br></br>
+            <br></br>
             </Col>
           </Row>
         </Container>
@@ -142,18 +193,37 @@ export const BannerMain = () => {
       <section className="publication" id="publication">
         <Container className="publication-container">
         <Row className="Publication-Title">
-          <h1>Publication</h1>
+          <h1 className="publication-title-class">Publication</h1>
         </Row>
         <br></br>
         <Row className="Description-Publication">
-          <p>Very brief description of why you wrote this shit</p>
         </Row>
         <br></br>
           <Row className="Publication-Details">
+          <a className="armchair-title-heading" href="https://armchairjournal.com/armchair-critics-neoliberal-democracies-class/">The ArmChair Journal: The Awkward Bourgeois</a>
+            
             <p>
-              <a className="publication-link" href="https://armchairjournal.com/armchair-critics-neoliberal-democracies-class/"><img alt="ArmChair" className = "armchair-image" src={armchair} ></img></a>
+            <br></br>
+            <br></br>
+              <a className="publication-link" href="https://armchairjournal.com/armchair-critics-neoliberal-democracies-class/">
+              <div class='card4'>
+            <div class='info4'>
+              <h4 className="project-description-paragraph">Description</h4>
+              <br></br>
+              <p className="publication-para">I wrote an opinion piece that was published by the Armchair Journal, which was focused on the Indian middle-class's role <br></br>in political processes and the democratic process overall. <br></br> 
+              <br></br>
+               It addresses various topics, such as that of public policy,  <br></br>self-governance,  and a growing apathy amongst citizens <br></br> toward political pariticipation. </p>
+
+            </div>
+          </div>
+
+
+              </a>
             </p>
+            
           </Row>
+          <br></br>
+            <br></br>
         </Container>
       </section>
       <br></br>
