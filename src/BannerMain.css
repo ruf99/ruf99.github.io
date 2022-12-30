@@ -1,0 +1,201 @@
+.mainDiv {
+    background-image: url('./images/blurry_wallpaper.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .this-is-opening-line {
+    color: rgb(44, 2, 78);
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .banner {
+      margin-top: 0;
+      padding: 150px 0 300px 0;
+      
+    }
+    .banner .Banner-Container {
+      width: 100vw;
+      height: 50vh;
+    }
+    .banner .introduction-line {
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      padding: 8px 10px;
+      opacity: 0.9;
+      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(249,57,170,1) 9.8%, rgba(134,176,255,1) 94.9% );
+      
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      font-size: 26px;
+      margin-bottom: 25px;
+      display: inline-block;
+      border-radius: 26px;
+      width: 320px;
+      height: 55px;
+      color: white;
+      cursor: pointer;
+      }
+  
+      .banner .introduction-line:hover{
+        opacity: 1;
+        color: black;
+        
+      }
+  
+      .banner .introduction-line:active{
+        opacity: 0.9;
+        color: white;
+        background-image: linear-gradient( 64.5deg,  rgba(245,116,185,1) 14.7%, rgba(89,97,223,1) 88.7% );
+      }
+  
+    .face_me {
+      width: 60%;
+      height: auto;
+      border-radius: 26px;
+      border: 3px solid rgb(236, 156, 226);
+    }
+  
+    @keyframes updown {
+        0% {
+            transform: translateY(-20px);
+        }
+        50% {
+            transform: translateY(20px);
+        }
+        100% {
+            transform: translateY(-20px);
+        }
+    }
+    .txt-rotate > .wrap {
+      border-right: 0.08em solid #666;
+    }
+    
+    /* AboutMe.css */
+  
+    .About {
+      width: 100vw;
+      max-height: min-content;
+      padding-bottom: 60px;
+      scroll-margin-top: 1em;
+    }
+  
+    .About-Me-Container {
+      scroll-margin-top: 1em;
+      padding-top: 20px;
+      background: rgba( 233, 216, 242, 0.1 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 13px );
+      -webkit-backdrop-filter: blur( 13px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      padding-bottom: 40px;
+    }
+  
+    /* Projects.css */
+    .project{
+      
+      width: 100vw;
+      max-height: min-content;
+      padding-bottom: 50px;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  
+  .Project-Container{
+      padding-top: 20px;
+      background: rgba( 233, 216, 242, 0.1 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 13px );
+      -webkit-backdrop-filter: blur( 13px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      padding-bottom: 40px;
+  }
+  
+  .Row1-Projects {
+      padding-top: 20px;
+      padding-bottom: 15px;
+  }
+  
+  .Drinking-Buddies-Title {
+      color: rgb(107, 2, 2);
+      font-size: 19px;
+  }
+  
+  .Cherry-Blossom-Title {
+      color: rgb(158, 36, 142);
+      font-size: 19px;
+  }
+  
+  .Polaroid-Title {
+      color: rgb(116, 46, 173);
+      font-size: 19px;
+  }
+  
+  .DB {
+      margin-top: 5px;
+      border-radius: 20px;
+      border: 1px solid rgb(240, 192, 198);
+      width: 95%;
+      height: auto;
+      
+  }
+  
+  .cherryNY {
+      margin-top: 5px;
+      border-radius: 20px;
+      padding-bottom: 35px;
+      border: 1px solid rgb(248, 202, 244);
+      background-color: white;
+      width: 95%;
+      height: auto;
+  
+  }
+  
+  .Polaroid {
+      margin-top: 5px;
+      border-radius: 20px;
+      padding-bottom: 25px;
+      border: 1px solid rgb(218, 191, 236);
+      background-color: white;
+      width: 95%;
+      height: auto;
+  
+  }
+  
+  /* Publication.css */
+  
+  .publication{
+    width: 100vw;
+    max-height: min-content;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    
+  }
+  
+  .publication-container {
+    padding-top: 20px;
+    background: rgba( 233, 216, 242, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding-bottom: 40px;
+  }
+  
+  .armchair-image {
+    width: 35%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  /* Footer */
+  .footer{
+  background-color: black;
+  width: 100%;
+  height: 10px;
+  
+  }
+  
