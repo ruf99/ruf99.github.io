@@ -1,58 +1,60 @@
 .mainDiv {
-    background-image: url('./images/blurry_wallpaper.jpg');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+  background-image: url("images/wallbaby.jpg");
+  background-size:cover;
+
+
   }
   .this-is-opening-line {
-    color: rgb(44, 2, 78);
+    color: white;
     font-size: 55px;
     font-weight: bold;
   }
   .banner {
-      margin-top: 0;
-      padding: 150px 0 300px 0;
+      margin-top: 0%;
+      padding: 115px 0 60px 0;
+      
       
     }
     .banner .Banner-Container {
-      width: 100vw;
-      height: 50vh;
+      width: 90vw;
+      height: auto;
     }
     .banner .introduction-line {
       font-weight: 700;
       letter-spacing: 0.8px;
       padding: 8px 10px;
-      opacity: 0.9;
-      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(249,57,170,1) 9.8%, rgba(134,176,255,1) 94.9% );
-      
-      border: 1px solid rgba(255, 255, 255, 0.5);
+      opacity: 0.8;
+      background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
       font-size: 26px;
       margin-bottom: 25px;
       display: inline-block;
       border-radius: 26px;
       width: 320px;
       height: 55px;
-      color: white;
+      color: black;
       cursor: pointer;
       }
   
       .banner .introduction-line:hover{
         opacity: 1;
-        color: black;
+        color: rgb(9, 6, 167);
         
       }
   
       .banner .introduction-line:active{
         opacity: 0.9;
         color: white;
-        background-image: linear-gradient( 64.5deg,  rgba(245,116,185,1) 14.7%, rgba(89,97,223,1) 88.7% );
+        background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
       }
   
     .face_me {
-      width: 60%;
+      
+      width: 50%;
       height: auto;
-      border-radius: 26px;
-      border: 3px solid rgb(236, 156, 226);
+      border-radius: 25px;
+      vertical-align: middle;
+      border: 2px solid rgb(236, 156, 226);
     }
   
     @keyframes updown {
@@ -81,21 +83,22 @@
   
     .About {
       width: 100vw;
-      max-height: min-content;
-      padding-bottom: 60px;
-      scroll-margin-top: 1em;
+      scroll-margin-top: 1px;
+      padding: 120px 0 2px 0;
+       
     }
   
     .About-Me-Container {
       scroll-margin-top: 1em;
-      padding-top: 20px;
-      background: rgba( 233, 216, 242, 0.1 );
+
+      background: rgba( 255, 255, 255, 0.3 );
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-      backdrop-filter: blur( 13px );
-      -webkit-backdrop-filter: blur( 13px );
+      backdrop-filter: blur( 17px );
+      -webkit-backdrop-filter: blur( 17px );
       border-radius: 10px;
       border: 1px solid rgba( 255, 255, 255, 0.18 );
-      padding-bottom: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
     .about-me-title{
       font-weight: bold;
@@ -113,25 +116,27 @@
       
       width: 100vw;
       max-height: min-content;
-      padding-bottom: 50px;
+      /* padding-bottom: 50px; */
       justify-content: center;
       align-items: center;
+      padding: 120px 0 10px 0;
       
   }
   
   .Project-Container{
       padding-top: 20px;
-      background: rgba( 233, 216, 242, 0.1 );
+      background: rgba( 255, 255, 255, 0.3 );
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-      backdrop-filter: blur( 13px );
-      -webkit-backdrop-filter: blur( 13px );
+      backdrop-filter: blur( 17px );
+      -webkit-backdrop-filter: blur( 17px );
       border-radius: 10px;
       border: 1px solid rgba( 255, 255, 255, 0.18 );
-      padding-bottom: 40px;
+      padding-bottom: 10px;
   }
   
   .project-title{
     font-weight: bold;
+    color: whitesmoke;
   }
 
   .Row1-Projects {
@@ -140,14 +145,14 @@
   }
   
   .db-link-title{
-    color: rgb(107, 2, 2);
+    color: rgb(151, 29, 29);
     font-size: 28px;
+    font-weight: bold;
     text-decoration: none;
   }
 
   .db-link-title:hover{
-    font-weight: bold;
-    color:rgb(207, 15, 15) ;
+    color:rgb(124, 41, 41) ;
   }
 
   .card1 {
@@ -187,6 +192,7 @@
 }
 .project-description-paragraph {
   text-decoration: none;
+  margin-top: 2px;
   color: black;
 }
 
@@ -242,15 +248,16 @@
 
 .cherry-title-link {
   text-decoration: none;
-  color: rgb(158, 36, 142);
+  
+  color: rgba(226, 169, 219, 0.884);
   font-size: 28px;
   cursor: pointer;
+  font-weight: bold;
   
 }
 
 .cherry-title-link:hover {
- font-weight: bold;
- color: rgb(180, 38, 109);
+  color: rgb(148, 21, 85);
  cursor: pointer;
 }
 
@@ -340,8 +347,9 @@
 
 .polaroid-title-link{
   text-decoration: none;
-  color: rgb(104, 38, 158);
+  color: rgba(141, 23, 245, 0.904);
   font-size: 28px;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -382,17 +390,17 @@
   .publication{
     width: 100vw;
     max-height: min-content;
-    padding-bottom: 50px;
-    padding-top: 40px;
-    
+    /* padding-bottom: 50px;
+    padding-top: 40px; */
+    padding: 120px 0 10px 0;
   }
   
   .publication-container {
     padding-top: 20px;
-    background: rgba( 233, 216, 242, 0.1 );
+    background: rgba( 255, 255, 255, 0.3 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 13px );
-    -webkit-backdrop-filter: blur( 13px );
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding-bottom: 40px;
@@ -402,6 +410,7 @@
     text-decoration: none;
     color: rgb(129, 0, 39);
     font-size: 28px;
+    font-weight: bold;
     cursor: pointer;
   }
 
@@ -479,7 +488,7 @@
       justify-content: center;
       line-height: 25px;
       color: rgb(109, 3, 3);
-
+      
   }
     
   
@@ -488,9 +497,18 @@
   
   /* Footer */
   .footer{
-  background-color: black;
+  background-color: #ffe5ec;
   width: 100%;
-  height: 10px;
+  color: #023e8a;
+  height: 50px;
+  font-weight: bold;
+  padding-top: 15px;
   
+  }
+
+  .footer-text {
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
   }
   

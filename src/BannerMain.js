@@ -64,8 +64,8 @@ export const BannerMain = () => {
   
     return (
         <div className="mainDiv">
-        <section className="banner">
-        <Container className="Banner-Container" id="home">
+        <section className="banner" id="home">
+        <Container className="Banner-Container" >
         
             <Row className="align-items-center">
             <Col xs={12} md={6} xl={5}>
@@ -88,8 +88,8 @@ export const BannerMain = () => {
             
         </Container>
         </section>
-        <section className="About" >
-        <Container className="About-Me-Container" id="About" >
+        <section className="About" id="About">
+        <Container className="About-Me-Container">
           <Row className="About-Title">
           <h1 className="about-me-title">About Me</h1>
           </Row>
@@ -97,10 +97,11 @@ export const BannerMain = () => {
           </br>
           <Row className="About-Me-Description">
           <p className="about-me-para"> Hello! My name is Rufaida Khan. I started my academic journey with Political Science at the University of Delhi (India), <br></br>but wanted to have a more technical background as well, which resulted in my transferring to New York University (NYU)! <br></br>
-          Presently, I am a senior at NYU studying Computer Science and Politics. I've spent the last three years working across different areas of tech <br></br>ranging from front-end development, back-end development,  social media management,  <br></br>to my current role in developing a better understanding of open-source software and data management. <br></br>
+          I've spent the last three years working across different areas of tech <br></br>ranging from front-end development, back-end development,  product management and research  <br></br>to my current role in developing a better understanding of open-source software and data management. <br></br> 
+          <br></br>I recently graduated from NYU with my bachelor's degree in Computer Science and Politics.
         <br></br>
-        Currently focused on researching, learning and coding as much as I can, while also spending the holidays on perfecting my NY-cheesecake recipe, <br></br>
-        reading Pride & Prejudice for the 7th time, and pet sitting my neighbour's cat. <br></br>
+& am currently focused on learning, coding and practising my technical skills as much as I can, <br></br>while also spending the summer on making headway with my reading-list, <br></br>
+        meditating, and watching celestial events live! <br></br>
       
         </p>
           </Row>
@@ -111,7 +112,7 @@ export const BannerMain = () => {
         <section className="project" id="project">
         <Container className="Project-Container">
         <Row className="Row1-Projects">
-          <h1 className="project-title">Projects</h1>
+          <h1 className="project-title" >Projects</h1>
         </Row>
         <br></br>
         
@@ -230,7 +231,7 @@ export const BannerMain = () => {
       <br></br>
       <section className="footer">
         <Container className="footer-Container" id="footer">
-         
+        <p class="footer-text">© 2020 - 2023 | Designed & coded with 💙 by Rufaida Khan </p>
         </Container>
       </section>
 

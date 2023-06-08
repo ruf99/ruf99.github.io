@@ -29,7 +29,7 @@ export const NavBar = () => {
     }
 
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+        <Navbar sticky="top" expand="lg" className={scrolled ? "scrolled": ""}>
         <Container>
         <Navbar.Brand href ="#home">
         <img className="logo-image" src={R} alt="Logo" />
@@ -43,6 +43,8 @@ export const NavBar = () => {
         <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}><h4 className="link-title">Projects</h4></Nav.Link>
         <Nav.Link href="#publication"className={activeLink === 'publication' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('publication')}><h4 className="link-title">Publication</h4></Nav.Link>
         <Nav.Link href="https://www.linkedin.com/in/rufaidakhan/"><h4 className="link-title">LinkedIn</h4></Nav.Link>
+        <Nav.Link href="https://github.com/ruf99"><h4 className="link-title">GitHub</h4></Nav.Link>
+        <Nav.Link href="https://ruf99.github.io/my-open-source/"><h4 className="link-title">Blog</h4></Nav.Link>
         </Nav>
         <span className="navbar-text">
         <div className="social-icon">

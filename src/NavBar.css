@@ -1,20 +1,31 @@
-navbar {
+.navbar {
     padding: 18px 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 9999;
     transition:  0.32s ease-in-out;
+    background-color: white;
+    border: solid 2px;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    border-bottom-color: #AB3F60;
   }
 
   .logo-image {
-    width: 55%;
-    height: auto;
+    height: 150px;
+    width: auto;
   }
 
   .link-title {
-    margin-left: 0;
+    margin-left: 15px;
     margin-right: 15px;
+    color: rgba(143, 7, 125, 0.849);
+  }
+
+  a.nav-link {
+    
   }
 
 navbar.scrolled {
@@ -26,11 +37,9 @@ navbar a.navbar-brand {
   }
 navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
-    color: #fff !important;
     letter-spacing: 0.8px;
     padding: 0 10px;
     font-size: 18px;
-    
     opacity: 0.75;
   }
   navbar .navbar-nav a.nav-link.navbar-link:hover,
