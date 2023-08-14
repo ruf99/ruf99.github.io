@@ -24,9 +24,22 @@
     color: rgba(143, 7, 125, 0.849);
   }
 
-  a.nav-link {
-    
+  .link-title:hover {
+    color: rgba(39, 2, 34, 0.849);
+    background-color: #cc70bd;
+    border-radius: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bold;
+    transition-duration: 500ms;
   }
+
+  .link-title:active {
+    color: white;
+    background-color: rgba(143, 7, 125, 0.849);
+
+  }
+
 
 navbar.scrolled {
     padding: 0px 0;

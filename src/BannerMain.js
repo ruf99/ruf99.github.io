@@ -1,6 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { Nav } from "react-bootstrap";
+import React from 'react';
+
 
 import "./BannerMain.css";
 
@@ -98,7 +100,7 @@ export const BannerMain = () => {
           <Row className="About-Me-Description">
           <p className="about-me-para"> Hello! My name is Rufaida Khan. I started my academic journey with Political Science at the University of Delhi (India), <br></br>but wanted to have a more technical background as well, which resulted in my transferring to New York University (NYU)! <br></br>
           I've spent the last three years working across different areas of tech <br></br>ranging from front-end development, back-end development,  product management and research  <br></br>to my current role in developing a better understanding of open-source software and data management. <br></br> 
-          <br></br>I recently graduated from NYU with my bachelor's degree in Computer Science and Politics.
+          <br></br>I recently graduated from NYU with my bachelor's degree in Computer Science and Politics
         <br></br>
 & am currently focused on learning, coding and practising my technical skills as much as I can, <br></br>while also spending the summer on making headway with my reading-list, <br></br>
         meditating, and watching celestial events live! <br></br>
@@ -119,11 +121,11 @@ export const BannerMain = () => {
         <br></br>
           <Row>
             <Col>
-            <a className = "db-link-title" href="https://tangym27.github.io/DrinkingBuddies-Proj/">Drinking Buddies </a>
+            <a className = "db-link-title" href="https://rufaida99-k.github.io/DrinkingBuddies-Proj/">Drinking Buddies </a>
             <br></br>
             <br></br>
             <br></br>
-              <a className = "db-link" href="https://tangym27.github.io/DrinkingBuddies-Proj/">
+              <a className = "db-link" href="https://rufaida99-k.github.io/DrinkingBuddies-Proj/">
               <div class='card1'>
             <div class='info1'>
               <h4 className="project-description-paragraph">Description</h4>
