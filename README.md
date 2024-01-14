@@ -4,6 +4,9 @@
 Welcome to the GitHub repository for my personal portfolio website. My name is Rufaida Khan, and I am studying Political Science and Computer Science at New York University. 
 This portfolio showcases my journey in tech, spanning across front-end and back-end development, product management, research, and more.
 
+## Website
+This portfolio is hosted on GitHub, and this is the link: https://ruf99.github.io/
+
 ## Projects
 
 ### Drinking Buddies
